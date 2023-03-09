@@ -7,7 +7,7 @@ class GetWeekend
     public function getWeek()
     {
         if (date('N') >= 6) {
-            echo "C'est le weekend ddddsdddddd";
+            echo "C'est le weekend";
         }else
         {
             echo "C'est pas le weekend";
@@ -16,7 +16,7 @@ class GetWeekend
 
     public function getMessageBienvenu()
     {
-       echo "Bienvenue à UCAB";
+       echo "Bienvenue à UCAD";
     }
 }
 
