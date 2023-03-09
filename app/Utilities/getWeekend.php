@@ -16,7 +16,7 @@ class GetWeekend
 
     public function getMessageBienvenu()
     {
-       echo "Bienvenue à UCAD";
+       echo "Bienvenue à UCAB TOUBA";
     }
 }
 
