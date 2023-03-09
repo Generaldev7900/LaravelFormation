@@ -1,6 +1,7 @@
 <?php
 
 use App\Models\Etudiant;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Route;
 
 
@@ -226,24 +227,24 @@ Route::get('/', function () {
     // dd($articles);
 
 
-    // Inserer 2 article
-    // $ok = DB::table('articles')->insert(
-    //     [
-    //         [
-    //             'titre' => 'Titre 8',
-    //             'contenu' => 'Contenu 8',
-    //             'etat' => 0,
-    //             'date' => date('Y-m-d H:i:s')
-    //         ],
-    //         [
-    //             'titre' => 'Titre 9',
-    //             'contenu' => 'Contenu 9',
-    //             'etat' => 1,
-    //             'date' => date('Y-m-d H:i:s')
-    //         ]
-    //     ]
-    // );
-    // dd($ok);
+      //Inserer 2 article
+    //  $ok = DB::table('articles')->insert(
+    //      [
+    //          [
+    //              'titre' => 'Titre 8',
+    //              'contenu' => 'Contenu 8',
+    //              'etat' => 0,
+    //              'date' => date('Y-m-d H:i:s')
+    //          ],
+    //          [
+    //              'titre' => 'Titre 9',
+    //              'contenu' => 'Contenu 9',
+    //              'etat' => 1,
+    //              'date' => date('Y-m-d H:i:s')
+    //          ]
+    //      ]
+    //  );
+    //  dd($ok);
 
     // Modifier le titre et le contenu de l'article dont l'id =2
     // $ok = DB::table('articles')->whereId(2)->update(
