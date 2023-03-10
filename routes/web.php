@@ -58,7 +58,7 @@ use Illuminate\Support\Facades\Route;
 // });
 
 Route::view('/about', 'pages/about');
-Route::view('/contact', 'pages/contact');
+Route::view('/contact', 'pages/contact');  
 Route::view('/service', 'pages/service');
 Route::resource('/etudiant', EtudiantController::class);
 
@@ -155,10 +155,7 @@ Route::get('/', function () {
     // dd($article);
 
 
-    // Selectionner tous les articles dont leur id est >= 2
-    // $article = DB::table('articles')->where('id', '>', 1)->get();
-    // dd($article);
-
+      
     // Selectionner l'article dont le titre est "Titre 2" et
     // le contenu  "Contenu 2" (Premiere méthode)
     // $article = DB::table('articles')
